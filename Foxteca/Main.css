@@ -1,27 +1,51 @@
-﻿body 
+﻿body, html
 {
     width:100%;
     height:100%;
+    padding: 0;
+    margin: 0;
 }
-html
+.mainmenu
 {
+    height:100px;
     width:100%;
-    height:100%;
 }
-panelfirst
+.panelfirst
 {
     width:100%;
-    height:100%;
-
+    height:800px;
+    color:white;
     background-color:black;
     background: url(Content/server_room.jpg) no-repeat center center fixed;
     background-size: cover;
     -o-background-size: cover;
 }
-maintext
+.mainBlocks
 {
-    color:white;
-    font-size:large;
+    width:100%;
+    height:800px;
+    background-color:gray;
+    text-align:center;
+}
+.mainBlocksTitle
+{
+    width:100%;
+    height:100px;
+    background-color:#807070;
+}
+.mainBlocksContent
+{
+    width:100%;
+    height:100px;
+    background-color:#90A0A0;
+}
+.maintext
+{
+    color:black;
+    font-size:90px;
     font-family:Calibri;
-
+    position: relative;
+	top: 50%;
+    left: 40%;
+	transform: translateY(-50%);
 }
