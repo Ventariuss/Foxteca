@@ -12,8 +12,18 @@
         @RenderBody()
     </div>
 
-    @Scripts.Render("~/bundles/jquery")
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
+
+    <script type="text/javascript">
+            // start to run when document ready
+             jQuery(function() {
+                 jQuery('#myslider0').juicyslider({
+                    width: '100%',
+                    height: 600
+                });
+             });
+    </script>
+
 </body>
 </html>

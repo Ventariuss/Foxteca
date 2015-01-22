@@ -19,10 +19,10 @@
             height: '100%', // otherwise set any other values in px or % unit
             mask: "raster", // "raster", "square", "strip" or "none"
             bgcolor: "#000",
-            autoplay: 4000, // 0 for no autoplay, any other postive number for play interval in (ms)
+            autoplay: 10000, // 0 for no autoplay, any other postive number for play interval in (ms)
             shuffle: false, // set true to shuffle the picture order
-            show: {effect: 'fade', duration: 1500}, // effect params refer to jQuery UI
-            hide: {effect: 'fade', duration: 1500}, // try 'puff' or 'drop' for the effect arg
+            show: {effect: 'fade', duration: 2000}, // effect params refer to jQuery UI
+            hide: {effect: 'fade', duration: 2000}, // try 'puff' or 'drop' for the effect arg
         }, options),               
         slides = this.find('li'),
         amount = slides.length,
