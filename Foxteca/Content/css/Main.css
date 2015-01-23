@@ -4,13 +4,23 @@
     height:100%;
     padding: 0;
     margin: 0;
-	background-color:black;
+    background-color:#1A1E21;
+    font-family:Helvetica;
 }
 .mainmenu
 {
-    height:15vh;
+    height:20vh;
     width:100%;
-	background-color:black;
+	background-color:#1A1E21;
+    -moz-box-shadow:    inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow:         inset 0 0 10px #000000;
+}
+.mainMenuContent
+{
+    width:35%;
+    text-align:center;
+    margin-left:10%;
 }
 .panelfirst
 {
@@ -43,19 +53,30 @@
 }
 .maintext
 {
+    padding-top:20%;
     color:white;
-    font-size:90px;
-    font-family:Calibri;
+    font-size:50px;
     position: relative;
-	top: 45%;
-    left: 35%;
-	width:70%;
+    margin-left: auto;
+    margin-right:auto;
+    width:1200px;
+    text-align:center;
+}
+.subtext
+{
+    color:white;
+    font-size:25px;
+    position: relative;
+    margin-left: auto;
+    margin-right:auto;
+    width:1200px;
+    text-align:center;
 }
 .mainLogo
 {
-	height:50px;
+	height:70px;
 	width:auto;
-	padding: 10px 0 10px 26px;
+	padding: 18px 0 16px 26px;
 }
 .column4
 {
