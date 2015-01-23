@@ -9,7 +9,9 @@
 </head>
 <body>
     <div class="container body-content">
-        @RenderBody()
+        <div class="metro">
+            @RenderBody()
+        </div>
     </div>
 
     @Scripts.Render("~/bundles/bootstrap")
@@ -18,11 +20,19 @@
     <script type="text/javascript">
             // start to run when document ready
              jQuery(function() {
-                 jQuery('#myslider0').juicyslider({
-                    width: '100%',
-                    height: 600
-                });
+                 jQuery('#myslider0').juicyslider();
              });
+
+             //$(".main").onepage_scroll();
+
+             (function ($) {
+                 $.fn.goTo = function () {
+                     $('html, body').animate({
+                         scrollTop: $(this).offset().top + 'px'
+                     }, 'slow');
+                     return this;
+                 }
+             })(jQuery);
     </script>
 
 </body>

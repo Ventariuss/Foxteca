@@ -10,7 +10,7 @@ namespace Foxteca.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Title = "Home Page";
+            ViewBag.Title = "Foxteca";
 
             return View();
         }

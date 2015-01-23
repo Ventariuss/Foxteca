@@ -16,7 +16,7 @@
             // these are the defaults.
             mode: "cover", // "cover" or "contain"
             width: '100%', // set null to make the slider as wide/tall as the window,
-            height: '100%', // otherwise set any other values in px or % unit
+            height: '100vh', // otherwise set any other values in px or % unit
             mask: "raster", // "raster", "square", "strip" or "none"
             bgcolor: "#000",
             autoplay: 10000, // 0 for no autoplay, any other postive number for play interval in (ms)

@@ -16,13 +16,16 @@ namespace Foxteca
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/jquery-1.10.2.min.js",
                       "~/Scripts/jquery-ui-1.11.2.min.js",                 
-                      //"~/Scripts/bootstrap.js",
                       "~/Scripts/juicyslider.js"
+                      //"~/Scripts/jquery.onepage-scroll.js"
                       ));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/css/Main.css",
-                      "~/Content/css/juicyslider.css"));
+                      "~/Content/metro-ui/css/metro-bootstrap.css",
+                      "~/Content/css/juicyslider.css"
+                      //"~/Content/css/onepage-scroll.css"
+                      ));
         }
     }
 }
