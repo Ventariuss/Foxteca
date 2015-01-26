@@ -167,6 +167,7 @@
     <Content Include="Content\road.jpg" />
     <Content Include="Content\server-room2.jpg" />
     <Content Include="Content\server_room.jpg" />
+    <Content Include="Content\tablet.png" />
     <Content Include="Content\themes\base\accordion.css" />
     <Content Include="Content\themes\base\all.css" />
     <Content Include="Content\themes\base\autocomplete.css" />

@@ -125,3 +125,5 @@ C:\Users\ventarius\Source\Repos\Foxteca\Foxteca\obj\Debug\Foxteca.dll
 C:\Users\ventarius\Source\Repos\Foxteca\Foxteca\obj\Debug\Foxteca.pdb
 C:\Users\11000677\Source\Repos\Foxteca\Foxteca\obj\Debug\Foxteca.csprojResolveAssemblyReference.cache
 C:\Users\11000677\Source\Repos\Foxteca\Foxteca\bin\WebActivatorEx.dll
+C:\Users\ventarius\Source\Repos\Foxteca\Foxteca\bin\WebActivatorEx.dll
+C:\Users\ventarius\Source\Repos\Foxteca\Foxteca\obj\Debug\Foxteca.csprojResolveAssemblyReference.cache

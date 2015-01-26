@@ -23,7 +23,8 @@ namespace Foxteca
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/css/Main.css",
                       "~/Content/metro-ui/css/metro-bootstrap.css",
-                      "~/Content/css/juicyslider.css"
+                      "~/Content/css/juicyslider.css",
+                      "~/Content/metro-ui/css/iconFont.min.css"
                       //"~/Content/css/onepage-scroll.css"
                       ));
         }
