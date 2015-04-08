@@ -132,12 +132,35 @@
 	width:auto;
 	height:auto;
 	padding:20px 0 20px 0;
-	margin: auto 50% auto 50%;
 	white-space: nowrap;
     font-size:18px;
 }
 .contact
 {
+    font-size:22px;
+    color:white;
 	height:250px;
 	width:100%;
+}
+.contact h3
+{
+    color:white;
+}
+.text-input
+{
+    background-color:#363F47;
+    border-style:solid;
+    border-width:1px;
+    width:100%;
+    height:100%;
+    
+}
+.text-input :focus
+{
+    border-color: #4D555C;
+}
+
+.form-table td
+{
+
 }
