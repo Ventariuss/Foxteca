@@ -122,9 +122,16 @@
 }
 .column2
 {
+    padding: 50vh 0px 0px 5%;
 	width:50%;
 	height:100%;
 	float:left;
+}
+.column3
+{
+	width:32%;
+	float:left;
+    display:inline-block;
 }
 .column4
 {
@@ -145,47 +152,29 @@
     color:white;
 	width:100%;
     height:5vh;
-	background-color:#5c5b5b;
+	background-color:#363F47;
 	text-align:center;
-    vertical-align:middle;
+    border-top:solid;
+    border-width:1px;
+    border-color: #4D555C;
 }
 .copyrightText
 {
     line-height: 5vh;
 }
-.contact
-{
-    font-size:22px;
-    color:white;
-	height:95vh;
-	width:100%;
+.contact {
+    font-size: 22px;
+    color: white;
+    height: 95vh;
+    width: 100%;
+    background: url('../contact.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-attachment: scroll;
 }
 .contact h3
 {
     color:white;
 }
-.text-input
-{
-    background-color:#363F47;
-    border-style:solid;
-    color:white;
-    height:100%;
-    color:white;
-    border-color: #363F47;
-    margin-left:20px;
-    margin-top:-2px;
-    display:inline-block;
-    overflow:hidden;
-}
-.text-input :focus
-{
-    border-color: #4D555C;
-}
-.text-input wiadomosc
-{
-    margin:0px 0px 0px 0px;
-}
-
 .form-table
 {
     background-color:#363F47;
@@ -195,15 +184,47 @@
     border-width:1px;
     border-style:solid;
     border-color: #4D555C;
-    width:50%;
-    display:inline-block;
-    vertical-align:central;
+    width:95%;
     font-size:14px;
+    display:inline-block;
+    background-color:#363F47;
+    margin: 1% 0% 1% 0%;
 }
 .text-label
 {
     height:100%;
     width:100%;
-    display: inline-block;
     margin: 0px 0px 0px 4px;
+}
+.text-input
+{
+    background-color:#363F47;
+    border-style:solid;
+    color:white;
+    height:100%;
+    color:white;
+    border-color: #363F47;
+    overflow:hidden;
+    width:100%;
+}
+.text-input :focus
+{
+    border-color: #4D555C;
+}
+.wiadomosc
+{
+    background-color:#363F47;
+    border-style:solid;
+    color:white;
+    height:100%;
+    color:white;
+    border-color: #363F47;
+    margin-top:-2px;
+    overflow:hidden;
+    display:inline;
+    float:left;
+    margin:0px 0px 0px 0px;
+    overflow:hidden;
+    resize:none;
+    width:100%;
 }
