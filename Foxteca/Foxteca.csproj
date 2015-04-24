@@ -150,6 +150,22 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Areas\HelpPage\HelpPage.css" />
+    <Content Include="Content\appbar.arrow.right.left.png" />
+    <Content Include="Content\appbar.browser.wire.png" />
+    <Content Include="Content\appbar.clipboard.paper.check.png" />
+    <Content Include="Content\appbar.database.sql.png" />
+    <Content Include="Content\appbar.email.minimal.png" />
+    <Content Include="Content\appbar.globe.png" />
+    <Content Include="Content\appbar.laptop.png" />
+    <Content Include="Content\appbar.list.check.png" />
+    <Content Include="Content\appbar.list.gear.png" />
+    <Content Include="Content\appbar.monitor.play.png" />
+    <Content Include="Content\appbar.page.png" />
+    <Content Include="Content\appbar.potion.png" />
+    <Content Include="Content\appbar.share.png" />
+    <Content Include="Content\appbar.shopping.png" />
+    <Content Include="Content\appbar.stock.up.png" />
+    <Content Include="Content\appbar.windowsphone.png" />
     <Content Include="Content\css\juicyslider-min.css" />
     <Content Include="Content\css\juicyslider.css" />
     <Content Include="Content\css\onepage-scroll.css" />
@@ -167,6 +183,7 @@
     <Content Include="Content\road.jpg" />
     <Content Include="Content\server-room2.jpg" />
     <Content Include="Content\server_room.jpg" />
+    <Content Include="Content\systems.jpg" />
     <Content Include="Content\tablet.png" />
     <Content Include="Content\themes\base\accordion.css" />
     <Content Include="Content\themes\base\all.css" />
