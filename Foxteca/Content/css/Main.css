@@ -228,3 +228,17 @@
     resize:none;
     width:100%;
 }
+
+.right
+{
+    float:right;
+}
+
+.systemBox
+{
+    width:10%;
+    height:15%;
+    display:block;
+    border: 1px solid #363F47;
+    margin: 0px 1% 0px 1%;
+}
