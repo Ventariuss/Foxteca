@@ -34,8 +34,7 @@
 }
 .tablet 
 {
-    width: 60%;
-    height: 100%;
+    width: 40%;
     margin: auto auto auto auto;
 }
 .tabletContent
@@ -91,13 +90,28 @@
 {
     padding-top:20%;
     color:white;
-    font-size:50px;
+    font-size:52px;
     position: relative;
     margin-left: auto;
     margin-right:auto;
     width:1200px;
     text-align:center;
 }
+
+@media screen and (max-width: 800px) {
+    .maintext {
+        width: 600px;
+        font-size:18px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .maintext {
+        width: 200px;
+        font-size:16px;
+    }
+}
+
 .subtext
 {
     color:white;
@@ -236,9 +250,8 @@
 
 .systemBox
 {
-    width:10%;
-    height:15%;
-    display:block;
+    width:94%;
+    height:50%;
     border: 1px solid #363F47;
     margin: 0px 1% 0px 1%;
 }
@@ -246,4 +259,20 @@
 {
     width:95%;
     display:inline-block;
+}
+
+.backgroundSystems {
+    background: url('../systems.jpg') no-repeat center center fixed;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.FillHorizontal
+{
+     height:100%;
+}
+
+.white
+{
+    color:white;
 }
