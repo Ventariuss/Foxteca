@@ -242,3 +242,8 @@
     border: 1px solid #363F47;
     margin: 0px 1% 0px 1%;
 }
+.row-tab
+{
+    width:95%;
+    display:inline-block;
+}
