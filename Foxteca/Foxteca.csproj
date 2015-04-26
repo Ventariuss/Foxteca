@@ -166,6 +166,7 @@
     <Content Include="Content\appbar.shopping.png" />
     <Content Include="Content\appbar.stock.up.png" />
     <Content Include="Content\appbar.windowsphone.png" />
+    <Content Include="Content\city.jpg" />
     <Content Include="Content\css\juicyslider-min.css" />
     <Content Include="Content\css\juicyslider.css" />
     <Content Include="Content\css\onepage-scroll.css" />

@@ -99,10 +99,16 @@
 }
 
 @media screen and (max-width: 800px) {
-    .maintext {
+        .maintext {
         width: 600px;
         font-size:18px;
-    }
+        }
+
+        .metro .tile.triple {
+        width: 120px;
+        height: 120px;
+        font-size:10px;
+        }
 }
 
 @media screen and (max-width: 400px) {
@@ -110,7 +116,15 @@
         width: 200px;
         font-size:16px;
     }
+
+        .metro .tile.triple {
+        width: 55px;
+        height: 55px;
+        font-size:8px;
+    }
 }
+
+
 
 .subtext
 {
@@ -220,6 +234,7 @@
     border-color: #363F47;
     overflow:hidden;
     width:100%;
+    opacity:0.5;
 }
 .text-input :focus
 {
@@ -241,6 +256,7 @@
     overflow:hidden;
     resize:none;
     width:100%;
+    opacity:0.5;
 }
 
 .right
@@ -262,7 +278,7 @@
 }
 
 .backgroundSystems {
-    background: url('../systems.jpg') no-repeat center center fixed;
+    background: url('../city.jpg') no-repeat center center fixed;
     background-size: cover;
     -o-background-size: cover;
 }
@@ -275,4 +291,5 @@
 .white
 {
     color:white;
+    font-weight:bold;
 }
