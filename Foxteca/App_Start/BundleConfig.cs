@@ -10,8 +10,7 @@ namespace Foxteca
         {
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
-            bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
-                        "~/Scripts/modernizr-*"));
+
 
             bundles.Add(new ScriptBundle("~/bundles/bootstrap").Include(
                       "~/Scripts/jquery-1.10.2.min.js",
@@ -22,7 +21,7 @@ namespace Foxteca
 
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/css/Main.css",
-                      "~/Content/metro-ui/css/metro-bootstrap.css",
+                      "~/Content/metro-ui/css/metro.css",
                       "~/Content/css/juicyslider.css",
                       "~/Content/metro-ui/css/iconFont.min.css"
                       //"~/Content/css/onepage-scroll.css"

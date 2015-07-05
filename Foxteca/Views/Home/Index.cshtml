@@ -1,4 +1,4 @@
-﻿<div class="main">
+﻿
     <div class="mainMenu">
         <div class="mainMenuContent">
             <img class="mainLogo" src="~/Content/Logo1.png" />
@@ -15,159 +15,189 @@
             <div class="maintext">
                 IT szyte na miarę - przyśpiesz działanie swojej firmy!
             </div>
-            <div class="subtext">
+            <div class="subtext padding10">
                 Zaufaj nam a osiągniesz wiecej.
                 <br />
-                <div onclick="$('#stepOneContainer').goTo();" class="button success large" style="margin-top:10px;">Dowiedz się więcej</div>
+                <div onclick="$('#stepOneContainer').goTo();" class="button success padding10" style="margin-top:10px;">Dowiedz się więcej</div>
             </div>
         </div>
     <div class="stepOneContainer" id="stepOneContainer">
-        <div class="tablet" id="tablet">
-            <div class="grid fluid">
-                <div class="row">
-                    <div class="span12">
-                <h1>Co możemy dla Ciebie zrobić?</h1>
-                <h2>1.Doradztwo IT</h2>
+            <div class="grid">
+                <div class="row cells5">
+                    <div class="cell"></div>
+                    <div class="cell colspan3">
+                <h1 class="align-center padding40">Co możemy dla Ciebie zrobić?</h1>
+                <h3>1.Doradztwo IT</h3>
                 Spotkamy sie u <span class="greenText">Ciebie</span> sprawdzając gdzie narzędzia IT mogą przynieść Ci największą korzyść. Wspólnie analizujemy Twoje problemy i szyjemy na miarę cyfrowe rozwiązanie. Wszystko to dopasowane do Twoich finansów i oczekiwań.
-    <h2>2.Przygotowanie rozwiązania</h2>
+    <h3>2.Przygotowanie rozwiązania</h3>
     Każdy problem jest inny i wymaga indywidualnego podejścia. <span class="greenText">30 dni</span> - tylko tyle potrzebujemy, byś zobaczył realną <span class="greenText">korzyść</span>. Tylko tyle zajmie nam przygotowanie narzędzia, które przyśpieszy codzienną pracę Twojej firmy.
-    <h2>3.Wdrożenie i korzyści dla Ciebie</h2>
+    <h3>3.Wdrożenie i korzyści dla Ciebie</h3>
     Uruchmaiamy rozwiązanie w Twoim środowisku. Następnie wspólnie, przez <span class="greenText">30 dni</span> monitorujemy i ulepszamy nasz produkt, by spełnić Twoje oczekiwania.
                 <br />
                 <div class="centerFrame">
                     <div onclick="$('#contact').goTo();" class="button success large">Skontaktuj się z nami już teraz <i class="icon-mail"></i></div>
                 </div>
             </div>
+                    <div class="cell"></div>
         </div>
     </div>
-        </div>
     </div>
     <div class="stepOneContainer" id="stepOneContainer">
-        <div class="column1 backgroundSystems FillHorizontal">
-            <div class="centerFrame">
-                <h1 class="white">W każdej firmie jest miejsce na wsparcie IT...</h1>
-                <div class="column1 white">Inwestycja w system informatyczny może zwrócić się już po kilku tygodniach.</div>
-                <div class="centerFrame">
-                    <div class="grid fluid">
-                        <div class="row">
-                            <div class="span10 offset1">
-                                <div class="row">
-                                    <div class="span3">
-                                        <div class="tile triple">
-                                            <img src="~/Content/appbar.page.png" />
-                                            <div class="brand bg-dark opacity"><span class="label">Generatory dokumentów</span></div>
+        <div class="backgroundSystems FillHorizontal">
+            <div class="align-center">
+                <h1 class="padding30 text-bold">W każdej firmie jest miejsce na wsparcie IT...</h1>
+                <h4 class="text-bold">Inwestycja w system informatyczny może zwrócić się już po kilku tygodniach.</h4>
+                        <div class="tileRow">
+                            <div class="centerContent">
+                                <div class="tile-wide">
+                                    <div class="tile-content slide-up-2">
+                                        <div class="slide">
+                                            <img class="padding20" src="~/Content/appbar.page.png" data-role="fitImage" data-format="square" />
                                         </div>
-                                    </div>
-                                    <div class="span3">
-                                        <div class="tile triple">
-                                            <!--<div class="overlay-fluid">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</div>-->
-                                            <img src="~/Content/appbar.email.minimal.png" />
-                                            <div class="brand bg-dark opacity"><span class="label">Systemy mailingowe</span></div>
+                                        <div class="slide-over bg-gray text-bold white padding10 align-center">
+                                            Generuj dokumenty, które teraz przygotowujesz ręcznie...
                                         </div>
-                                    </div>
-                                    <div class="span3">
-                                        <div class="tile triple">
-                                            <img src="~/Content/appbar.list.gear.png" />
-                                            <div class="brand bg-dark opacity"><span class="label">Systemy workflow</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="span3">
-                                        <div class="tile triple">
-                                            <img src="~/Content/appbar.potion.png" />
-                                            <div class="brand bg-dark opacity"><span class="label">Automatyzacja testów</span></div>
-                                        </div>
+                                        <div class="tile-label text-bold">Generatory dokumentów</div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="span3">
-                                        <div class="tile triple">
-                                            <img src="~/Content/appbar.globe.png" />
-                                            <div class="brand bg-dark opacity"><span class="label">Strony internetowe</span></div>
+                                <div class="tile-wide">
+                                    <div class="tile-content slide-right-2">
+                                        <div class="slide">
+                                            <img class="padding20" src="~/Content/appbar.email.minimal.png" data-role="fitImage" data-format="square" />
                                         </div>
-                                    </div>
-                                    <div class="span3">
-                                        <div class="tile triple">
-                                            <img src="~/Content/appbar.share.png" />
-                                            <div class="brand bg-dark opacity"><span class="label">Automatyzacja UI</span></div>
+                                        <div class="slide-over bg-gray text-bold white padding10 align-center">
+                                            Chcę masowo wysyłać korespondecję elektroniczną lub smsy do moich klientów...
                                         </div>
-                                    </div>
-                                    <div class="span3">
-                                        <div class="tile triple">
-                                            <img src="~/Content/appbar.browser.wire.png" />
-                                            <div class="brand bg-dark opacity"><span class="label">Rozwiązania webservice</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="span3">
-                                        <div class="tile triple">
-                                            <img src="~/Content/appbar.shopping.png" />
-                                            <div class="brand bg-dark opacity"><span class="label">Uruchomienie sklepu internetowego</span></div>
-                                        </div>
+                                        <div class="tile-label text-bold">Systemy mailingowe</div>
                                     </div>
                                 </div>
-                                <div class="row">
-                                    <div class="span3">
-                                        <div class="tile triple">
-                                            <img src="~/Content/appbar.list.check.png" />
-                                            <div class="brand bg-dark opacity"><span class="label">Systemy zadaniowe</span></div>
+                                <div class="tile-wide">
+                                    <div class="tile-content slide-up-2">
+                                        <div class="slide">
+                                            <img class="padding20" src="~/Content/appbar.list.gear.png" data-role="fitImage" data-format="square" />
                                         </div>
-                                    </div>
-                                    <div class="span3">
-                                        <div class="tile triple">
-                                            <img src="~/content/appbar.windowsphone.png" />
-                                            <div class="brand bg-dark opacity"><span class="label">Rozwiązania mobilne</span></div>
+                                        <div class="slide-over bg-gray text-bold white padding10 align-center">
+                                            Potrzebuję systemu, który pozwoli mi zapanować nad przydzielaniem zadań lub obiegiem dokumentów w mojej firmie...
                                         </div>
-                                    </div>
-                                    <div class="span3">
-                                        <div class="tile triple">
-                                            <img src="~/Content/appbar.database.sql.png" />
-                                            <div class="brand bg-dark opacity"><span class="label">Bazy danych</span></div>
-                                        </div>
-                                    </div>
-                                    <div class="span3">
-                                        <div class="tile triple">
-                                            <img src="~/Content/appbar.stock.up.png" />
-                                            <div class="brand bg-dark opacity"><span class="label">Wizualizacja danych</span></div>
-                                        </div>
+                                        <div class="tile-label text-bold">Systemy workflow</div>
                                     </div>
                                 </div>
-                            </div>
+                            </div class="centerContent">
+                        </div>
+                        <div class="tileRow">
+                            <div class="centerContent">
+                                <div class="tile-wide">
+                                    <div class="tile-content slide-right-2">
+                                        <div class="slide">
+                                            <img class="padding20" src="~/Content/appbar.globe.png" data-role="fitImage" data-format="square" />
+                                        </div>
+                                        <div class="slide-over bg-gray text-bold white padding10 align-center">
+                                            Chcę oryginalnie i skutecznie dotrzeć do klientów za pośrednictwem stron internetowych...
+                                        </div>
+                                        <div class="tile-label text-bold">Strony internetowe</div>
+                                    </div>
+                                </div>
+                                <div class="tile-wide">
+                                    <div class="tile-content slide-up-2">
+                                        <div class="slide">
+                                            <img class="padding20" src="~/Content/appbar.share.png" data-role="fitImage" data-format="square" />
+                                        </div>
+                                        <div class="slide-over bg-gray text-bold white padding10 align-center">
+                                            Potrzebuję narzędzia, które odtworzy sposób pracy moich pracowników automatyzując powtarzalne czynności...
+                                        </div>
+                                        <div class="tile-label text-bold">Automatyzacja UI</div>
+                                    </div>
+                                </div>
+                                <div class="tile-wide">
+                                    <div class="tile-content slide-left-2">
+                                        <div class="slide">
+                                            <img class="padding20" src="~/Content/appbar.shopping.png" data-role="fitImage" data-format="square" />
+                                        </div>
+                                        <div class="slide-over bg-gray text-bold white padding10 align-center">
+                                            Chcę zacząć sprzedawać w internecie...
+                                        </div>
+                                        <div class="tile-label text-bold">Sklepy internetowe</div>
+                                    </div>
+                                </div>
+                            </div class="centerContent">
+                        </div>
+                        <div class="tileRow">
+                            <div class="centerContent">
+                                <div class="tile-wide">
+                                    <div class="tile-content slide-down-2">
+                                        <div class="slide">
+                                            <img class="padding20" src="~/Content/appbar.list.check.png" data-role="fitImage" data-format="square" />
+                                        </div>
+                                        <div class="slide-over bg-gray text-bold white padding10 align-center">
+                                            Chcę zacząć sprzedawać w internecie...
+                                        </div>
+                                        <div class="tile-label text-bold">Systemy zadaniowe</div>
+                                    </div>
+                                </div>
+                                <div class="tile-wide">
+                                    <div class="tile-content slide-up-2">
+                                        <div class="slide">
+                                            <img class="padding20" src="~/Content/appbar.stock.up.png" data-role="fitImage" data-format="square" />
+                                        </div>
+                                        <div class="slide-over bg-gray text-bold white padding10 align-center">
+                                            Chcę przedstawić zbiór danych w atraktcyjny sposób za pośrednictwem aplikacji lub strony internetowej...
+                                        </div>
+                                        <div class="tile-label text-bold">Wizualizacja danych</div>
+                                    </div>
+                                </div>
+                                <div class="tile-wide">
+                                    <div class="tile-content slide-right-2">
+                                        <div class="slide bg-lightGreen">
+                                            <img class="padding20" src="~/Content/appbar.stock.up.png" data-role="fitImage" data-format="square" />
+                                        </div>
+                                        <div class="slide-over bg-gray text-bold white padding10 align-center">
+                                            Mam pomysł na własny system i chcę go zrealizować!
+                                        </div>
+                                        <div class="tile-label text-bold white">Inny system</div>
+                                    </div>
+                                </div>
+                            </div class="centerContent">
                         </div>
                     </div>
                 </div>
-
-
             </div>
-        </div>
-    </div>
-    </div>
     <div id="contact" class="contact">
-        <div class="column2"><h3>KONTAKT</h3><i class="icon-mobile-2"></i> 509-040-670<br /><i class="icon-mail"></i> kontakt@foxteca.pl</div>
-        <div class="column2">
-            <h3>FORMULARZ KONTAKTOWY</h3>
-            <div class="column3">
-                <div class="row-form">
-                    <div><label class="text-label">Imię</label><span><input class="text-input" type="text" /></span></div>
+
+        <h1 class="white align-center padding20">Skontaktuj się z nami</h1>
+        
+        <div class="grid">
+            <div class="row cells7">
+                <div class="cell"></div>
+                <div class="cell colspan2">
+                    <h3>Zadzwoń do nas</h3>
+                    <i class="icon-mobile-2"></i> 
+                    509-040-670
+                    <br /><i class="icon-mail"></i> kontakt@foxteca.pl
                 </div>
-                <div class="row-form">
-                    <div><label class="text-label">Nazwisko</label><input class="text-input" type="text" /></div>
+                <div class="cell colspan3">
+                    <h3>Napisz do nas</h3>
+
+                    <div class="white">
+                        <div><label class="text-label">Imię</label><span><input class="text-input" type="text" /></span></div>
+                    </div>
+                    <div class="white">
+                        <div><label class="text-label">Nazwisko</label><input class="text-input" type="text" /></div>
+                    </div>
+                    <div class="white">
+                        <div><label class="text-label">Email</label><input class="text-input" type="text" /></div>
+                    </div>
+                    <div class="white">
+                        <div><label class="text-label">Telefon</label><input class="text-input" type="text" /></div>
+                    </div>
+
+                    <div class="white">
+                        <div><label class="text-label">Wiadomość</label><textarea class="wiadomosc" rows="6"></textarea></div>
+                    </div>
+                    <input type="submit" value="Prześlij formularz" class="button success large">
                 </div>
-                <div class="row-form">
-                    <div><label class="text-label">Email</label><input class="text-input" type="text" /></div>
-                </div>
-                <div class="row-form">
-                    <div><label class="text-label">Telefon</label><input class="text-input" type="text" /></div>
-                </div>
+                <div class="cell"></div>
             </div>
-            <div class="column3">
-                <div class="row-form right">
-                    <div><label class="text-label">Wiadomość</label><textarea class="wiadomosc" rows="10"></textarea></div>
-                </div>
-                <input type="submit" value="Prześlij formularz" class="button success large right">
             </div>
 
         </div>
-    </div>
-        <div class="copyright">
-            <div class="copyrightText">Foxteca © 2014</div>
-        </div>
-</div>
+
