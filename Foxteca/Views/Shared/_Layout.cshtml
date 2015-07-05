@@ -8,11 +8,11 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    <div class="container body-content">
-        <div class="metro">
+
+        <div>
             @RenderBody()
         </div>
-    </div>
+
 
     @Scripts.Render("~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
