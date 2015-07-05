@@ -174,9 +174,6 @@
     <Content Include="Content\logo.png" />
     <Content Include="Content\Logo1.png" />
     <Content Include="Content\metro-ui\css\iconFont.min.css" />
-    <Content Include="Content\metro-ui\css\metro-bootstrap-responsive.css" />
-    <Content Include="Content\metro-ui\css\metro-bootstrap-responsive.min.css" />
-    <Content Include="Content\metro-ui\css\metro-bootstrap.css" />
     <Content Include="Content\metro-ui\css\metro-bootstrap.min.css" />
     <Content Include="Content\metro-ui\fonts\iconFont.dev.svg" />
     <Content Include="Content\metro-ui\fonts\iconFont.svg" />
@@ -251,7 +248,6 @@
     <Content Include="Scripts\juicyslider-min.js" />
     <Content Include="Scripts\juicyslider.js" />
     <Content Include="Scripts\metro-ui\jquery.ui.widget.js" />
-    <Content Include="Scripts\metro-ui\metro.min.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Scripts\respond.js" />
     <Content Include="Scripts\respond.min.js" />
